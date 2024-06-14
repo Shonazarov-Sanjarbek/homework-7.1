@@ -332,14 +332,97 @@
 //     // console.log( numbers(1, 5) );
 // }
 
+// {
+//     // for4   
+//     //     for (let i = 1; i <= 10; i++) {
+//     //         console.log(prise * i);        
+//     //     }
+//     // }
+    
+//     // console.log( chocolate( 10000 ) );
+// }
+
+// {
+//     // for5
+//     // function chocolate(prise) {
+//     //     for (let i = 0; i < 1; i += 0.1) {
+//     //         console.log( i * prise);        
+//     //     }   
+//     // }
+//     // console.log( chocolate(10000) );
+// }
+
+// {
+//     // for6
+//     // function chocolate( prise ) {
+//     //     for (let i = 1; i <= 2; i += 0.2) {
+//     //         console.log( i * prise);        
+//     //     }
+//     // }
+//     // console.log( chocolate(1000) );
+// }
+
+// {
+//     // for7
+//     // function number( a, b ) {
+//     //     let sum = 0
+//     //     if ( a < b ) {
+//     //         for (let i = a; i < b; i++) {
+//     //             sum = sum + i            
+//     //         }
+//     //     } else {
+//     //         return `a soni b sonidan kichik bo'lishi kerak`
+//     //     }
+//     //     console.log(sum);
+//     // }
+//     // console.log( number( 2, 7 ) );
+// }
+
+// {
+//     // for8
+//     // function number( a, b ) {
+//     //     let sum = 1
+//     //     if ( a < b) {
+//     //         for (let i = a; i < b; i++) {
+//     //             sum = sum * i            
+//     //         }
+//     //     } else {
+//     //         return `a soni b sonidan kichik bo'lishi kerak`
+//     //     }
+//     //     console.log(`${a} dan ${b} gacha bo'lgan sonlar ko'paytmasi ${sum} ga teng`);
+//     // }
+    
+//     // console.log( number(2, 7) );
+// }
+
+// {
+//     // for9
+//     // function numbers( a, b) {
+//     //     let sum = 0
+//     //     if ( a < b) {
+//     //         for (let i = a; i < b; i++) {
+//     //             sum = sum + (i * i)            
+//     //         }
+//     //     } else {
+//     //         return `a soni b sonidan kichik bo'lishi kerak`
+//     //     }
+//     //     console.log(`${a} dan ${b} gacha bo'lgan barcha butun sonlar kvadratlarining yig'indisi =  ${sum}`);
+//     // }
+//     // console.log( numbers(3, 7) );
+// }
+
 {
 
 }
-
-function chocolate( prise ) {
-    for (let i = 1; i <= 10; i++) {
-        console.log(prise * i);        
+function number(n) {
+    let sum = 0
+    if ( n > 0 ) {
+        for (let i = 1; i <= n; i++) {
+            sum = i/n + sum
+        }
+    } else {
+        return `n soni 0 dan kichik bo'lishi mumkin emas`
     }
+    console.log(sum);
 }
-
-console.log( chocolate( 10000 ) );
+console.log( number(5) );
