@@ -411,18 +411,18 @@
 //     // console.log( numbers(3, 7) );
 // }
 
-{
-
-}
-function number(n) {
-    let sum = 0
-    if ( n > 0 ) {
-        for (let i = 1; i <= n; i++) {
-            sum = i/n + sum
-        }
-    } else {
-        return `n soni 0 dan kichik bo'lishi mumkin emas`
-    }
-    console.log(sum);
-}
-console.log( number(5) );
+// {
+//     // for10
+//     // function number(n) {
+//     //     let sum = 0
+//     //     if ( n > 0 ) {
+//     //         for (let i = 1; i <= n; i++) {
+//     //             sum = i/n + sum
+//     //         }
+//     //     } else {
+//     //         return `n soni 0 dan kichik bo'lishi mumkin emas`
+//     //     }
+//     //     console.log(sum);
+//     // }
+//     // console.log( number(5) );
+// }
